@@ -27,12 +27,12 @@ python manage.py migrate</pre>
 7.visit http://127.0.0.1:8000/
 
 
-#Handling frontend template
+# Handling frontend template
 
-1. import "bootstrap-select css and js cdn" and read the necessary documentation : https://developer.snapappointments.com/bootstrap-select/
+ Import "bootstrap-select css and js cdn" and read the necessary documentation : https://developer.snapappointments.com/bootstrap-select/
 
 This is to make our <pre>select</pre> and <pre>option</pre> tags beautiful and add flags icon to the <pre>select tags</pre>
 
 
-#Handling backend
+# Handling backend
 
