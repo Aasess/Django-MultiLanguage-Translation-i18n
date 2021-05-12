@@ -3,36 +3,52 @@ Here this project involves a simple login page which support both english and ne
 we make use of i18n which is on by default in django along with gettext gnu for perfoming translation.
 
 
-# Quick Start
+## Quick Start
 1.Clone repo like this:
- <pre>git clone https://github.com/Aasess/Django-MultiLanguage-Translation-i18n.git</pre>
+ ```sh
+ git clone https://github.com/Aasess/Django-MultiLanguage-Translation-i18n.git
+```
+
 
 2.Create a virtualenv in cmd
-<pre>python3 -m venv virtualenv</pre>
+```sh
+python3 -m venv virtualenv
+```
+
 
 3.Activate virtualenv in cmd
-<pre>virtualenv\Scripts\activate.bat</pre>
+```sh
+virtualenv\Scripts\activate.bat
+```
+
+
 
 4.Install packages from requirements.txt file
-<pre>pip install -r /path/to/requirements.txt</pre>
+```sh 
+pip install -r /path/to/requirements.txt
+```
 
 
 5.Run migrations as:
-<pre>python manage.py makemigrations
-python manage.py migrate</pre>
+```sh 
+python manage.py makemigrations
+python manage.py migrate
+```
+
 
 6.Start the development:
-<pre>python manage.py runserver</pre>
-
+```sh
+python manage.py runserver
+```
 7.visit http://127.0.0.1:8000/
 
 
-# Handling frontend template
+## Handling Frontend Template
 
- Import "bootstrap-select css and js cdn" and read the necessary documentation : https://developer.snapappointments.com/bootstrap-select/
+ Import [```bootstrap-select```](https://developer.snapappointments.com/bootstrap-select/) css and js cdn and read the necessary documentation.
 
-This is to make our <pre>select</pre> and <pre>option</pre> tags beautiful and add flags icon to the <pre>select tags</pre>
+This is to make our ```select``` and ```option``` tags beautiful and add flags icon to the ```select``` tags.
 
 
-# Handling backend
+## Handling Backend
 
